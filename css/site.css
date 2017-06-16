@@ -249,7 +249,7 @@ article .post {
 
   header .avatar {
     margin-top: 1em;
-    max-width: 250px;
+    max-width: 270px;
     vertical-align: -20px;
     margin-left: 0
   }
@@ -287,7 +287,7 @@ nav a.selected:hover {
 
 .avatar {
   border-radius: 50%;
-  max-width: 250px;
+  max-width: 270px;
   vertical-align: -9px;
   margin-left: 12px;
 }
