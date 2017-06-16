@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>
+    {{ page.title }}
+  </title>
+  {% if page.description %}<meta name="description" content="{{page.description}}" />{% endif %}
+  {{ page.extra_head }}
+</head>
+<body>
+  <!-- <div class="top-bar">
+  </div> -->
+
+  <div class="header-container">
+    <header class="inner">
+      <nav>
+        <a class="{% if page.category == 'home' %} selected {% endif %}" href="/">Home</a>
+        <a class="{% if page.category == 'projects' %} selected {% endif %}" href="/projects/">Projects</a>
+        <a class="{% if page.category == 'blog' %} selected {% endif %}" href="/blog/">Blog</a>
+		<a class="{% if page.category == 'aboutus' %} selected {% endif %}" href="/aboutus/">About Us</a>
+        <a href="https://github.com/audiocomp">Github</a>
+      </nav>
+      <div class="pull-right right logo">
+        <div class="name">
+          <a href="/">audiocomp Ltd.</a><br />
+          <small>
+            <em>
+              Broadcast Specialists
+            </em>
+          </small>
+        </div>
+        <img class="avatar" src="/images/audiocomp.png" alt="Logo" />
+      </div>
+      <div class="clear"></div>
+    </header>
+    <div class="clear"></div>
+  </div>
+
+  {{ content }}
+  <div class="separator"></div>
+
+  <div  style="border-bottom: 1px solid #ddd"></div>
+  <footer>
+    <p>
+      Made with <a href="http://jekyllrb.com/">Jekyll</a>,
+      hosted on <a href="https://github.com/audiocomp/audiocomp.github.io">Github Pages</a>.
+    </p>
+    <ul class="links">
+      <li>
+        <a href="https://github.com/audiocomp" title="See our code on GitHub">
+          <i class="icon-github"></i>
+        </a>
+      </li>
+      <li>
+      <li>
+        <a href="https://www.linkedin.com/in/audiocomp" title="Connect with me on LinkedIn">
+          <i class="icon-linkedin"></i>
+        </a>
+      </li>
+    </ul>
+  </footer>
+</body>
+</html>
