@@ -104,7 +104,7 @@ article {
   font-size: 18px;
 }
 
-.portfolio-nav {
+.projects-nav {
   text-align: center;
   list-style-type: none;
   margin: 3em 0 2em 0;
@@ -116,27 +116,27 @@ article {
   border-right-width: 0;
 }
 
-.portfolio-nav .active {
+.projects-nav .active {
   background-color: #3073b3;
 }
 
-.portfolio-nav .active a {
+.projects-nav .active a {
   color: white;
 }
 
-.portfolio-nav li a {
+.projects-nav li a {
   width: 5em;
   padding: 0.7em 0.4em;
   display: inline-block;
   text-decoration: none;
 }
 
-.portfolio-nav li:first-child {
+.projects-nav li:first-child {
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
 }
 
-.portfolio-nav li:last-child {
+.projects-nav li:last-child {
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
   border-right-width: 1px;
@@ -249,7 +249,7 @@ article .post {
 
   header .avatar {
     margin-top: 1em;
-    max-width: 80px;
+    max-width: 250px;
     vertical-align: -20px;
     margin-left: 0
   }
@@ -535,18 +535,18 @@ img {
   width: 100%;
 }
 
-.book-me {
+.contact {
   float: right;
   margin-top: -3px;
 }
 
 @media (max-width: 420px) {
-  .book-me {
+  .contact {
     float: none;
     text-align: center;
     margin: 0 0 1em 0;
   }
-  .about-me h1 {
+  .home h1 {
     text-align: center;
   }
   .hello {
